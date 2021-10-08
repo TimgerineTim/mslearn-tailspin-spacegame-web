@@ -47,7 +47,7 @@ steps:
 
 - task: DotNetCoreCli@2
   displayName: 'Install .NET tools from local manifest'
-  input:
+  inputs:
     command: custom
     custom: tool
     arguments: 'restore'
